@@ -1,0 +1,38 @@
+
+
+html,
+body,
+#cesiumContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+button {
+  font-family: "Roboto", "-apple-system", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: #1F879C;
+  border-color: #1F879C;
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin: 10px 0px 0px 10px;
+  z-index: 999;
+  position: fixed;
+  cursor: pointer;
+}
+button.stopped:after
+{
+  content: '\25B6\0020 Fly Through';
+}
+button.playing
+{
+  background-color: #1F879C;
+  color: white;
+}
+button.playing:after
+{
+  content: '\25FC\0020 Fly Through';
+}
+          

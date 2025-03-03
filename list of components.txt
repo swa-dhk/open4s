@@ -1,0 +1,5 @@
+software:
+- cesiumjs
+
+resources:
+- hk3d map
